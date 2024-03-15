@@ -1,18 +1,13 @@
-import "./globals.css";
 
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 export default function App() {
-
   return(
     <div>
-        <header>
-          <h1>Cabeçalho</h1>
-        </header>
-        <footer>
-          <h2>JOSE NASCIMENTO</h2>
-          <p1>pedro jesus</p1>
-        </footer>
-    </div>  
-  );
+      <header>CABEÇALHO</header>
+      <Footer>asdsad<Footer/>
+    </div>
 
+  );
 
 }
