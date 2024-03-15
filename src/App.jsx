@@ -1,12 +1,16 @@
-export default function App() {
+import "./globals.css";
 
-  const nome = "João";
-  const sobreNome = "Santos";
+export default function App() {
 
   return(
     <div>
-        <h1>Hello World</h1>
-        <p>Desenvolvido por: {nome}</p>
+        <header>
+          <h1>Cabeçalho</h1>
+        </header>
+        <footer>
+          <h2>JOSE NASCIMENTO</h2>
+          <p1>pedro jesus</p1>
+        </footer>
     </div>  
   );
 
